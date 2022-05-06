@@ -17,9 +17,9 @@ on:
 
 env:
   DOCKER_NAMESPACE: kolla
-  KOLLA_BASE_DISTRO: centos
+  KOLLA_BASE_DISTRO: ubuntu
   INSTALL_TYPE: source
-  OPENSTACK_RELEASE: train
+  OPENSTACK_RELEASE: xena
   ALIYUN_REGISTRY: registry.cn-hangzhou.aliyuncs.com
   ALIYUN_NAMESPACE: kollaimage-rj
 
