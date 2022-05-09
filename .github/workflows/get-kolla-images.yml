@@ -10,10 +10,12 @@
 
 name: CI
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person to greet'
+        required: true
+        default: 'Mona the Octocat'
 
 env:
   DOCKER_NAMESPACE: kolla
